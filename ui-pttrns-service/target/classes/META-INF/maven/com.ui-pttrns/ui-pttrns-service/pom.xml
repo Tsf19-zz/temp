@@ -11,8 +11,8 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>ui-pttrns-generic-dao</artifactId>
-	<name>ui-pttrns-generic-dao</name>
+	<artifactId>ui-pttrns-service</artifactId>
+	<name>ui-pttrns-service</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -23,15 +23,15 @@
 
 		<dependency>
 			<groupId>com.ui-pttrns</groupId>
+			<artifactId>ui-pttrns-model</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ui-pttrns</groupId>
 			<artifactId>ui-pttrns-common</artifactId>
 			<version>${project.version}</version>
 		</dependency>
-		
-<!-- 		<dependency>
-			<groupId>com.ui-pttrns</groupId>
-			<artifactId>ui-pttrns-model</artifactId>
-			<version>${project.version}</version>
-		</dependency> -->
 
 	</dependencies>
 
