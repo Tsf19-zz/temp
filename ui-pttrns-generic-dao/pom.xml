@@ -21,6 +21,12 @@
 
 	<dependencies>
 
+		<dependency>
+			<groupId>com.ui-pttrns</groupId>
+			<artifactId>ui-pttrns-common</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 
 	</dependencies>
+	
 </project>
